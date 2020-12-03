@@ -12,82 +12,82 @@
 <body>
 	<main class="container">
 		<div class="row justify-content-center m-2">
-			<div class="col col-md-4 border shadow">
+			<div class="col col-md-4 border shadow bg-dark">
 				<form class="mt-4">
-			<div class="form-group">
-				<input type="text" id="display" class="form-control text-right" placeholder="0" value="" readonly>
-			</div>
-		</form>
-		<div class="row mb-2">
-			<div class="col">
-				<button class="btn btn-block btn-light text-danger" onclick="reset()">C</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="deleteLast()"><<</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="getOperator('%')">%</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="getOperator('/')">/</button>
-			</div>
-		</div>
-		<div class="row mb-2">
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('7')">7</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('8')">8</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('9')">9</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="getOperator('*')">*</button>
-			</div>
-		</div>
-		<div class="row mb-2">
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('4')">4</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('5')">5</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('6')">6</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="getOperator('-')">-</button>
-			</div>
-		</div>
-		<div class="row mb-2">
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('1')">1</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('2')">2</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('3')">3</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="getOperator('+')">+</button>
-			</div>
-		</div>
-		<div class="row mb-2">
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="changeSign()">-/+</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('0')">0</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-light" onclick="display('.')">.</button>
-			</div>
-			<div class="col">
-				<button class="btn btn-block btn-success" onclick="displayResult(true)">=</button>
-			</div>
-		</div>
+					<div class="form-group">
+						<input type="text" id="display" class="form-control text-right" placeholder="0" value="" readonly>
+					</div>
+				</form>
+				<div class="row mb-2">
+					<div class="col">
+						<button class="btn btn-block btn-light text-danger" onclick="reset()">C</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="deleteLast()"><<</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="getOperator('%')">%</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="getOperator('/')">/</button>
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('7')">7</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('8')">8</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('9')">9</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="getOperator('*')">*</button>
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('4')">4</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('5')">5</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('6')">6</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="getOperator('-')">-</button>
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('1')">1</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('2')">2</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('3')">3</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="getOperator('+')">+</button>
+					</div>
+				</div>
+				<div class="row mb-2">
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="changeSign()">-/+</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('0')">0</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-light" onclick="display('.')">.</button>
+					</div>
+					<div class="col">
+						<button class="btn btn-block btn-success" onclick="displayResult(true)">=</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</main>
